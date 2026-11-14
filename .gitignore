@@ -1,0 +1,17 @@
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 剪辑软件工程和缓存
+*.drp
+*.drt
+*.prproj
+*.jyp
+*.draft_content
+*.proxy
+cache/
+tmp/
+
+# 本地环境变量和密钥，千万不要提交
+.env
+*.token

@@ -1,0 +1,163 @@
+{
+  "project": "放生椰子精 / Coconut Spirit Short",
+  "raw_base_url": "https://raw.githubusercontent.com/AarowV/coconut-spirit-short/main/",
+  "assets": [
+    {
+      "file": "assets/characters/protagonist_portrait_v1.png",
+      "type": "character",
+      "status": "ok",
+      "description": "主角半身定妆照（竖版 2:3）。脸、发型、服装的基准。",
+      "used_in_shots": [],
+      "notes": "只有坏笑一个表情；还缺 16:9 版和疑惑/兴奋/尴尬表情"
+    },
+    {
+      "file": "assets/characters/protagonist_with_pole_9x16.png",
+      "type": "character",
+      "status": "ok",
+      "description": "主角手握长竹竿（竖版 9:16），竹竿完整入镜。",
+      "used_in_shots": [
+        "02",
+        "05",
+        "07A"
+      ],
+      "notes": "基准图；视频用需要先出 16:9 横版"
+    },
+    {
+      "file": "assets/characters/father_portrait_v1.png",
+      "type": "character",
+      "status": "needs_rework",
+      "description": "爸爸半身定妆照（竖版 2:3）。脸和神态满意。",
+      "used_in_shots": [
+        "05",
+        "07B",
+        "09",
+        "11"
+      ],
+      "notes": "发髻和主角太像，需要改成半披散灰白头发，并出 16:9 半身图"
+    },
+    {
+      "file": "assets/characters/coconut_spirit_awake_base.png",
+      "type": "character",
+      "status": "final",
+      "description": "椰子精苏醒基准图：水滴形椰壳、琥珀金眼睛、嘴里透金光，站在石台上。",
+      "used_in_shots": [
+        "06",
+        "08",
+        "10"
+      ],
+      "notes": "椰子精所有表情图的参考图"
+    },
+    {
+      "file": "assets/characters/coconut_spirit_sigh.png",
+      "type": "character",
+      "status": "final",
+      "description": "椰子精叹气/臭脸表情（眼眯成缝、嘴角下压、金光变暗）。",
+      "used_in_shots": [
+        "12",
+        "13"
+      ],
+      "notes": ""
+    },
+    {
+      "file": "assets/characters/coconut_spirit_smirk.png",
+      "type": "character",
+      "status": "final",
+      "description": "椰子精冷笑表情（嘴角一边上扬）。",
+      "used_in_shots": [
+        "08"
+      ],
+      "notes": "镜08 尾帧"
+    },
+    {
+      "file": "assets/characters/mudman_fullbody_v1.png",
+      "type": "character",
+      "status": "needs_rework",
+      "description": "泥人全身定妆照（竖版 2:3）：斗笠、破麻衣、泥浆下淌。",
+      "used_in_shots": [
+        "13",
+        "17",
+        "18",
+        "19"
+      ],
+      "notes": "衣服轮廓太清楚、泥片像树皮、眼睛是黑洞；要改成整个身体是流动的泥 + 琥珀金眼睛"
+    },
+    {
+      "file": "assets/characters/mudman_closeup_v1.png",
+      "type": "character",
+      "status": "needs_rework",
+      "description": "泥人笑脸特写（16:9）：琥珀金眼睛、浅笑、脸颊一块泥翘起。脸部基准。",
+      "used_in_shots": [
+        "14",
+        "16",
+        "21"
+      ],
+      "notes": "滴落的泥像焦糖/蜂蜜（半透明偏金），要改成哑光不透明灰褐泥"
+    },
+    {
+      "file": "assets/props/tumbler_static.png",
+      "type": "prop",
+      "status": "final",
+      "description": "暗金色祥云纹不倒翁（水滴形）立在圆形石台上。",
+      "used_in_shots": [
+        "02"
+      ],
+      "notes": "镜02 合成首帧的参考图"
+    },
+    {
+      "file": "assets/props/tumbler_spinning.png",
+      "type": "prop",
+      "status": "final",
+      "description": "不倒翁高速旋转态：金色尘埃漩涡、动态模糊。",
+      "used_in_shots": [
+        "02",
+        "03",
+        "04"
+      ],
+      "notes": "镜03 首帧；镜04 首帧"
+    },
+    {
+      "file": "assets/scenes/wasteland_stone_platform.png",
+      "type": "scene",
+      "status": "final",
+      "description": "黄昏高原荒野大远景，中央有一圈古老圆形石台。",
+      "used_in_shots": [
+        "01"
+      ],
+      "notes": "镜01 需要加一个极小的人影；加人影版还没出"
+    },
+    {
+      "file": "assets/scenes/thunderstorm_cloud_wide.png",
+      "type": "scene",
+      "status": "final",
+      "description": "史诗大全景：紫灰色雷暴云砧镶金边，闪电，两个小人影走向它。",
+      "used_in_shots": [
+        "20"
+      ],
+      "notes": ""
+    },
+    {
+      "file": "assets/_superseded/coconut_round_awake_v1.png",
+      "type": "superseded",
+      "status": "superseded",
+      "description": "早期圆球形椰子苏醒图，背景是地面废墟。",
+      "used_in_shots": [],
+      "notes": "已被水滴形椰子取代"
+    },
+    {
+      "file": "assets/_superseded/coconut_round_asleep_v1.png",
+      "type": "superseded",
+      "status": "superseded",
+      "description": "早期圆球形椰子沉睡图（三个黑孔）。",
+      "used_in_shots": [],
+      "notes": "已被水滴形椰子取代"
+    },
+    {
+      "file": "assets/_superseded/coconut_on_platform_two_holes_v1.png",
+      "type": "superseded",
+      "status": "superseded",
+      "description": "水滴形椰子放在石台上，两个黑孔，背景与旋转态图对不上。",
+      "used_in_shots": [],
+      "notes": "待重出：用不倒翁静态图当参考把背景锁死，再出沉睡版"
+    }
+  ]
+}
